@@ -1,0 +1,6 @@
+pane	0	1	:zsh	1	:*	0	:/home/pc/aur/glmark2-git	0	zsh	:
+pane	0	1	:zsh	1	:*	1	:/home/pc/bin	0	htop	:htop
+pane	0	1	:zsh	1	:*	2	:/home/pc/bin	1	zsh	:
+pane	0	1	:zsh	1	:*	3	:/home/pc/bin	0	zsh	:
+window	0	1	1	:*	cf88,159x54,0,0{99x54,0,0,8,59x54,100,0[59x20,100,0,7,59x24,100,21,13,59x8,100,46,9]}
+state	0	

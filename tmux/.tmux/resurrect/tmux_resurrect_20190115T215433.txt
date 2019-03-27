@@ -1,0 +1,8 @@
+pane	0	0	:zsh	0	:-	0	:/home/pc	1	zsh	:
+pane	0	1	:zsh	1	:*	0	:/home/pc	1	zsh	:
+pane	0	1	:zsh	1	:*	1	:/home/pc/bin	0	htop	:htop
+pane	0	1	:zsh	1	:*	2	:/home/pc/bin	0	zsh	:
+pane	0	1	:zsh	1	:*	3	:/home/pc/bin	0	zsh	:
+window	0	0	0	:-	c23d,159x54,0,0,0
+window	0	1	1	:*	a568,159x54,0,0{99x54,0,0,1,59x54,100,0[59x20,100,0,2,59x24,100,21,3,59x8,100,46,4]}
+state	0	

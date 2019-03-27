@@ -1,0 +1,4 @@
+pane	0	1	:zsh	1	:*	0	:/home/pc/.tmux/plugins	0	zsh	:
+pane	0	1	:zsh	1	:*	1	:/home/pc/bin	1	zsh	:
+window	0	1	1	:*	98d6,159x54,0,0{79x54,0,0,0,79x54,80,0,3}
+state	0	
