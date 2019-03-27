@@ -197,5 +197,5 @@ esac
 
 
 ## Personal zsh configuration.
-source dotfiles/shellrc
+source ~/dotfiles/shellrc
 
