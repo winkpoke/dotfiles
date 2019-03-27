@@ -1,0 +1,60 @@
+## Alias
+alias ls='ls --color'
+alias ll='ls -l'
+alias s='sudo pacman -Ss'
+alias i='sudo pacman -S'
+alias t='python ${HOME}/.local/lib/t/t.py --task-dir ${HOME}/.local/var/t/tasks --list tasks'
+alias lynx='lynx -display_charset=UTF8'  ## Chinese char display 
+
+## Start pwoerline
+powerline-daemon -q
+. /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
+## Set to vi mode; has to be shown above FZF
+set -o vi
+
+## Path
+export PATH=$PATH:~/private/rtk/lib/itk/bin
+
+## Editors
+export VISUAL=nvim
+export EDITOR=nvim
+
+## Geant4 setups
+source ~/private/geant4/lib/geant4/bin/geant4.sh
+export GAMMASIM_THREADS=2
+
+## fuzzy search
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_COMMAND='find . -type f'
+
+## Termial color strings
+GREEN="\e[40;0;32m"
+WHITE="\e[40;0;37m"
+RED="\e[40;0;31m"
+YELLOW="\e[40;0;33m"
+BLUE="\e[40;0;34m"
+PURPLE="\e[40;0;35m"
+CYAN="\e[40;0;36m"
+
+## Greeting
+COLORS=(${RED} ${BLUE} ${YELLOW} ${CYAN} ${PURPLE})
+clear
+echo -e "OS: ${GREEN}$(uname -sr)${WHITE}"
+echo -e "Uptime: ${GREEN}$(uptime -p)${WHITE}"
+echo -e "Hostname: ${GREEN}$(hostname)${WHITE}"
+echo -e "Disk usage:" 
+echo
+echo "  $(df --output="source,used,avail,pcent" / | sed -e /File/d)"
+echo
+echo "Tasks:"
+n=$(t|wc -l)
+for (( task=1; task<=${n}; task++ ))
+do
+     x=`t | sed -n "${task}p"`
+     cn=`echo ${#COLORS[@]}`   ## better than cn=`echo ${COLORS} | wc -w`
+     let "c=${task} % ${cn}"
+     COLOR=${COLORS[${c}]}
+     echo -e "  ${COLOR}${x}${WHITE}"
+done
