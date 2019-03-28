@@ -5,6 +5,9 @@ alias s='sudo pacman -Ss'
 alias i='sudo pacman -S'
 alias t='python ${HOME}/.local/lib/t/t.py --task-dir ${HOME}/.local/var/t/tasks --list tasks'
 alias lynx='lynx -display_charset=UTF8'  ## Chinese char display 
+# git alias
+alias gs='git status'
+alias gl='git log --graph'
 
 ## Start pwoerline
 powerline-daemon -q

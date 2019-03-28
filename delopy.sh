@@ -10,3 +10,5 @@ ln -s ${DIR}/tmux/.tmux ~/.tmux
 
 ln -s ${DIR}/zshrc ~/.zshrc
 ln -s ${DIR}/bashrc ~/.bashrc
+
+ln -s ${DIR}/xprofile ~/.xprofile
