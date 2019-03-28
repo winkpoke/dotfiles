@@ -63,6 +63,9 @@ Plug 'scrooloose/nerdtree'
 " Multiple selection
 Plug 'terryma/vim-multiple-cursors'
 
+" Cloujure related
+Plug 'tpope/vim-fireplace'
+
 " Initialize plugin system
 call plug#end()
 
