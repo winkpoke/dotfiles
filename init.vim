@@ -66,6 +66,9 @@ Plug 'terryma/vim-multiple-cursors'
 " Cloujure related
 Plug 'tpope/vim-fireplace'
 
+" git related
+Plug 'tpope/vim-fugitive'
+
 " Initialize plugin system
 call plug#end()
 

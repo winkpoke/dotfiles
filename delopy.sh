@@ -1,14 +1,15 @@
 #! /bin/sh
 
 DIR=~/dotfiles
+LN="ln -s -b -f"
 
-ln -s ${DIR}/init.vim ~/.vimrc
-ln -s ${DIR}/init.vim ~/.config/nvim/init.vim
+LN ${dir}/init.vim ~/.vimrc
+LN ${dir}/init.vim ~/.config/nvim/init.vim
 
-ln -s ${DIR}/tmux/tmux.conf ~/.tmux.conf
-ln -s ${DIR}/tmux/.tmux ~/.tmux
+LN ${dir}/tmux/tmux.conf ~/.tmux.conf
+LN ${dir}/tmux/.tmux ~/.tmux
 
-ln -s ${DIR}/zshrc ~/.zshrc
-ln -s ${DIR}/bashrc ~/.bashrc
+LN ${dir}/zshrc ~/.zshrc
+LN ${dir}/bashrc ~/.bashrc
 
-ln -s ${DIR}/xprofile ~/.xprofile
+LN ${DIR}/xprofile ~/.xprofile
