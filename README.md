@@ -2,7 +2,7 @@
 
 To keep my configuration files. 
 
-It includes:
+It includes configures of:
 - Bash/Zsh
 - tmux
 - vim/neovim

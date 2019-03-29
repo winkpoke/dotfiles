@@ -67,6 +67,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fireplace'
 Plug 'vim-scripts/paredit.vim'
 
+" git related
+Plug 'tpope/vim-fugitive'
+
 " Initialize plugin system
 call plug#end()
 
