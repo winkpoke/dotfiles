@@ -63,8 +63,9 @@ Plug 'scrooloose/nerdtree'
 " Multiple selection
 Plug 'terryma/vim-multiple-cursors'
 
-" Cloujure related
+" Clojure related
 Plug 'tpope/vim-fireplace'
+Plug 'vim-scripts/paredit.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -81,3 +82,6 @@ map <leader>n :NERDTreeToggle<CR>
 " FZF
 nmap <leader>; :Buffers<CR>
 nmap <leader>f :Files<CR>
+
+" Paredit
+let g:paredit_leader = ','
