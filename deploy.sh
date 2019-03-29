@@ -13,3 +13,4 @@ LN ${dir}/zshrc ~/.zshrc
 LN ${dir}/bashrc ~/.bashrc
 
 LN ${DIR}/xprofile ~/.xprofile
+LN ${DIR}/Xmodmap ~/.Xmodmap

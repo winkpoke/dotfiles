@@ -67,6 +67,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fireplace'
 Plug 'vim-scripts/paredit.vim'
 
+" HTML editing
+Plug 'mattn/emmet-vim'
+
 " git related
 Plug 'tpope/vim-fugitive'
 
