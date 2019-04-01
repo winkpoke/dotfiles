@@ -8,6 +8,7 @@ alias lynx='lynx -display_charset=UTF8'  ## Chinese char display
 # git alias
 alias gs='git status'
 alias gl='git log --graph'
+alias gc='git commit -m'
 
 ## Start pwoerline
 powerline-daemon -q
