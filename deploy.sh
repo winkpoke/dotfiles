@@ -18,3 +18,5 @@ ${LN} ${DIR}/bashrc ~/.bashrc
 
 ${LN} ${DIR}/xprofile ~/.xprofile
 ${LN} ${DIR}/Xmodmap ~/.Xmodmap
+
+${LN} ${DIR}/gitconfig ~/.gitconfig

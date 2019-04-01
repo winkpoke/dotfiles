@@ -199,3 +199,7 @@ esac
 ## Personal zsh configuration.
 source ~/dotfiles/shellrc
 
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /home/pc/projects/wasm/isomorphic_rust/percy/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/pc/projects/wasm/isomorphic_rust/percy/node_modules/tabtab/.completions/electron-forge.zsh

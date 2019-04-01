@@ -18,6 +18,7 @@ set -o vi
 
 ## Path
 export PATH=$PATH:~/private/rtk/lib/itk/bin
+export PATH=$PATH:~/.cargo/bin
 
 ## Editors
 export VISUAL=nvim
@@ -31,6 +32,9 @@ export GAMMASIM_THREADS=2
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 export FZF_DEFAULT_COMMAND='find . -type f'
+
+## Rust
+export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 
 ## Termial color strings
 GREEN="\e[40;0;32m"
