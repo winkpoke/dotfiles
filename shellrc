@@ -9,6 +9,9 @@ alias lynx='lynx -display_charset=UTF8'  ## Chinese char display
 alias gs='git status'
 alias gl='git log --graph'
 alias gc='git commit -m'
+# path shortcuts
+alias ggd='cd ~/dotfiles'
+alias ggp='cd ~/projects'
 
 ## Start pwoerline
 powerline-daemon -q
