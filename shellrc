@@ -12,6 +12,7 @@ alias gc='git commit -m'
 # path shortcuts
 alias ggd='cd ~/dotfiles'
 alias ggp='cd ~/projects'
+alias ggh='cd ~/'
 
 ## Start pwoerline
 powerline-daemon -q
