@@ -63,6 +63,9 @@ Plug 'ncm2/ncm2-vim'
 Plug 'ncm2/ncm2-tern',  {'do': 'npm install'}
 Plug 'ncm2/ncm2-racer'
 
+" code editing
+Plug 'tpope/vim-commentary'
+
 " GUI enhancement
 Plug 'w0rp/ale'
 
@@ -73,6 +76,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 
 " Clojure related
+" connect to clojurescript in vim with fireplace 
+"       :Piggieback (figwheel-sidecar.repl-api/repl-env)
 Plug 'tpope/vim-fireplace'
 Plug 'vim-scripts/paredit.vim'
 
