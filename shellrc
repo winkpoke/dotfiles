@@ -34,7 +34,6 @@ source ~/private/geant4/lib/geant4/bin/geant4.sh
 export GAMMASIM_THREADS=2
 
 ## fuzzy search
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 export FZF_DEFAULT_COMMAND='find . -type f'
 
