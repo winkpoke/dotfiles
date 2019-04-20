@@ -15,6 +15,7 @@ ${LN} ${DIR}/tmux/.tmux ~/.tmux
 
 ${LN} ${DIR}/zshrc ~/.zshrc
 ${LN} ${DIR}/bashrc ~/.bashrc
+${LN} ${DIR}/bash_profile ~/.bash_profile
 
 ${LN} ${DIR}/xprofile ~/.xprofile
 ${LN} ${DIR}/Xmodmap ~/.Xmodmap
