@@ -70,3 +70,6 @@ do
      COLOR=${COLORS[${c}]}
      echo -e "  ${COLOR}${x}${WHITE}"
 done
+
+# RTK cmake setting
+export RTK_DIR=/home/pc/private/rtk/build/RTK/build
