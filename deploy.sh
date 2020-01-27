@@ -7,8 +7,11 @@ ${LN} ${DIR}/init.vim ~/.vimrc
 mkdir -p ~/.config/nvim
 ${LN} ${DIR}/init.vim ~/.config/nvim/init.vim
 mkdir -p ~/.vim/autoload
+mkdir -p ~/.local/share/nvim/site/autoload/
 cp ${DIR}/pathogen.vim ~/.vim/autoload
 cp ${DIR}/plug.vim ~/.vim/autoload
+cp ${DIR}/plug.vim ~/.local/share/nvim/site/autoload/
+cp ${DIR}/pathogen.vim ~/.local/share/nvim/site/autoload/
 
 ${LN} ${DIR}/tmux/tmux.conf ~/.tmux.conf
 ${LN} ${DIR}/tmux/.tmux ~/.tmux
