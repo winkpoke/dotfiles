@@ -16,7 +16,7 @@ alias ggh='cd ~/'
 
 ## Start pwoerline
 powerline-daemon -q
-. /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+. /usr/lib/python3/dist-packages/powerline/bindings/zsh/powerline.zsh
 
 ## Set to vi mode; has to be shown above FZF
 set -o vi
@@ -28,6 +28,11 @@ export PATH=$PATH:~/.cargo/bin
 ## Editors
 export VISUAL=nvim
 export EDITOR=nvim
+
+## Fix permission problem of newly created file in WSL
+if [[ "$(umask)" = "000" ]]; then
+  umask 0022
+fi
 
 ## Geant4 setups
 source ~/private/geant4/lib/geant4/bin/geant4.sh
