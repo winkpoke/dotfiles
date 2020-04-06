@@ -29,10 +29,12 @@ set lazyredraw
 set synmaxcol=500
 set diffopt+=iwhite " No whitespace in vimdiff
 " Make diffing better: https://vimways.org/2018/the-power-of-diff/
-set diffopt+=algorithm:patience
-set diffopt+=indent-heuristic
+"set diffopt+=algorithm:patience
+"set diffopt+=indent-heuristic
 set colorcolumn=81 " and give me a colored column
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
+
+"if !exists('g:vscode')
 
 " Load pathogen.vim
 execute pathogen#infect()
@@ -166,3 +168,5 @@ let g:paredit_leader = ','
 
 " Javascript
 let g:javascript_plugin_flow = 1   " turn on flow
+
+"endif

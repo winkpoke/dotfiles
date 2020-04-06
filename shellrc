@@ -3,6 +3,7 @@ alias ls='ls --color'
 alias ll='ls -l'
 alias s='sudo pacman -Ss'
 alias i='sudo pacman -S'
+# https://github.com/sjl/t/
 alias t='python ${HOME}/.local/lib/t/t.py --task-dir ${HOME}/.local/var/t/tasks --list tasks'
 alias lynx='lynx -display_charset=UTF8'  ## Chinese char display 
 # git alias
@@ -78,3 +79,6 @@ done
 
 # RTK cmake setting
 export RTK_DIR=/home/pc/private/rtk/build/RTK/build
+
+# PATH
+export PATH=${PATH}:~/.local/bin

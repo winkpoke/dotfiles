@@ -1,0 +1,5 @@
+pane	0	0	:zsh	1	:*	0	:/home/pc/projects/wasm/kepler	0	nvim	:nvim
+pane	0	0	:zsh	1	:*	1	:/home/pc/projects/wasm/kepler/www	1	zsh	:
+pane	0	0	:zsh	1	:*	2	:/home/pc/projects/wasm/kepler/www	0	npm	:npm
+window	0	0	1	:*	e4b9,209x46,0,0{114x46,0,0,0,94x46,115,0[94x33,115,0,1,94x12,115,34,3]}
+state	0	
